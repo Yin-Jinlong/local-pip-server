@@ -1,0 +1,12 @@
+.idea
+.gradle
+build
+dist
+out
+node_modules
+
+# 外部配置
+/config/app.yaml
+
+# 生成的html索引
+/html

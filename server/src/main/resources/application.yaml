@@ -1,0 +1,17 @@
+server:
+  address: 127.0.0.9
+  port: 9999
+  compression:
+    enabled: true
+    min-response-size: 1KB
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+spring:
+  mvc:
+    converters:
+      preferred-json-mapper: gson
+    servlet:
+      load-on-startup: 0
